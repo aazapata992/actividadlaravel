@@ -1,0 +1,36 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$blanco: #ffffff;
+
+header{
+	min-height: 150px;
+	background: #00c4ff;
+	color: $blanco;
+	margin-bottom: 30px;
+	text-align: center;
+    padding-top: 47px;
+    font-size: 39px;
+}
+
+footer{
+	min-height: 80px;
+	background: #00c4ff;
+	color: $blanco;
+	padding-top: 33px;
+	margin-top: 30px;
+}
+
+body{
+	td{padding: 25px 5px;}
+
+	input{font-size: 18px !important;}
+	.input-field label{font-size: 14px;}
+}
